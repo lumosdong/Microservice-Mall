@@ -1,0 +1,17 @@
+17:22:48:924  INFO 1348 --- [main] com.hmall.HMallApplication               : Starting HMallApplication using Java 21.0.7 on LUMOS with PID 1348 (D:\hmall\hmall\hm-service\target\classes started by 86136 in D:\hmall\hmall)
+17:22:48:928 DEBUG 1348 --- [main] com.hmall.HMallApplication               : Running with Spring Boot v2.7.12, Spring v5.3.27
+17:22:48:929  INFO 1348 --- [main] com.hmall.HMallApplication               : The following 1 profile is active: "local"
+17:22:49:514  INFO 1348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+17:22:49:516  INFO 1348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+17:22:49:537  INFO 1348 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 Redis repository interfaces.
+17:22:49:975  INFO 1348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+17:22:49:982  INFO 1348 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+17:22:49:982  INFO 1348 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+17:22:50:083  INFO 1348 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+17:22:50:084  INFO 1348 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+17:22:51:244  INFO 1348 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+17:22:51:543  INFO 1348 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+17:22:51:544  INFO 1348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+17:22:51:547  INFO 1348 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+17:22:51:569  INFO 1348 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+17:22:51:692  INFO 1348 --- [main] com.hmall.HMallApplication               : Started HMallApplication in 3.085 seconds (JVM running for 3.687)
